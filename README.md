@@ -1,27 +1,134 @@
-# Car Magic Browser
+# 🚗 Car Magic Browser (CMB)
 
-![Downloads](https://img.shields.io/github/downloads/keshavgupta-mnnit/CarMagicBrowserReleases/total?style=for-the-badge&color=green)
-![Platform](https://img.shields.io/badge/Platform-Android%20Auto-blue?style=for-the-badge)
+A proof-of-concept Android application that enables a **full web browsing experience on car infotainment displays** using advanced display virtualization and dual-session rendering.
 
-A powerful, custom-built web browser engine designed specifically for Android Auto, utilizing Mozilla's GeckoView and Android Virtual Displays.
+---
 
-> **⚠️ DISCLAIMER: STRICTLY FOR EDUCATIONAL AND PARKED USE ⚠️**
-> This project is an experimental proof-of-concept. It is NOT intended for use while driving. Watching videos or interacting with a web browser while operating a vehicle is strictly prohibited, dangerous, and illegal in most jurisdictions. The author assumes ZERO liability for how this software is used, any accidents, fines, or damages. Use entirely at your own risk. **You must agree to these terms within the app before use.**
+## 📥 Downloads
 
-## Features
-* **GeckoView Engine:** Powered by a dual-session Mozilla Gecko engine to ensure desktop-class browsing and cookie persistence.
-* **Smart Scaling:** Custom VirtualDisplay density injection (160 DPI) to ensure websites render perfectly on head units without looking "zoomed in."
-* **Hardware Accelerated:** Fullscreen video support for modern web players with synthesized touch controls.
-* **Sync Mode:** Log in securely on your phone and instantly sync the session to your car's display.
+![Downloads](https://img.shields.io/github/downloads/keshavgupta-mnnit/CarMagicBrowserReleases/total)
+![Latest Release](https://img.shields.io/github/v/release/keshavgupta-mnnit/CarMagicBrowserReleases)
+![APK Size](https://img.shields.io/github/release-size/keshavgupta-mnnit/CarMagicBrowserReleases/latest)
 
-## How to Install
-Since this app bypasses standard Android Auto display constraints, it cannot be hosted on the Google Play Store.
+👉 **[Download Latest APK](https://github.com/keshavgupta-mnnit/CarMagicBrowserReleases/releases/latest)**
 
-1. Go to the [Releases Page](../../releases) of this repository.
-2. Download the latest `app-release.apk` file to your Android phone.
-3. Open the file to install it. *(You may need to enable "Install unknown apps" in your Android Settings).*
-4. Open the app on your phone **first** to log into any necessary websites.
-5. Connect your phone to your car and launch **Car Magic Browser** from the Android Auto menu.
+---
 
-## Privacy & Telemetry
-This app requires you to agree to a liability waiver upon first launch. To verify this agreement, a unique, anonymous hardware hash is generated and securely logged. No browsing history, passwords, or personal data are ever tracked or transmitted.
+## ✨ What is this?
+
+Car Magic Browser is an **experimental system-level project** that pushes the limits of Android’s display framework.
+
+It enables:
+- 🌐 Full web browsing on car screens  
+- 🔄 Session sync between phone and car  
+- ⚡ Hardware-accelerated rendering via GeckoView  
+- 🖥️ Desktop-like browsing experience on infotainment displays  
+
+---
+
+## 🧠 How it Works (High-Level)
+
+- Uses **VirtualDisplay API** to project content onto the car screen  
+- Runs **dual GeckoView sessions** (phone + car)  
+- Shares persistent storage for **instant session sync**  
+- Injects **MotionEvent-based touch input** across displays  
+
+---
+
+## ⚠️ Safety Notice
+
+This application is a **technical proof-of-concept**.
+
+- Intended for **non-driving scenarios only**
+- Requires user acknowledgment before use
+- Includes safeguards tied to system state where applicable
+
+> Use responsibly. Safety always comes first.
+
+---
+
+## 🛠️ Features
+
+- Full browser experience (not limited WebView)
+- Cross-device session continuity
+- Optimized rendering for large displays
+- Experimental automotive display support
+- Secure acknowledgment system
+
+---
+
+## 📱 How to Use
+
+1. Download the latest APK from the link above  
+2. Install it on your Android device  
+3. Connect to your car head unit  
+4. Launch the app  
+5. Accept the disclaimer  
+6. Start browsing  
+
+---
+
+## 💬 Feedback & Community
+
+I’d love to hear your thoughts and improve this project.
+
+### 👍 Like / 👎 Dislike
+- Star ⭐ the repo if you like it  
+- Open an issue if something doesn’t work  
+
+### 🐛 Report Issues
+👉 [Report a Bug](https://github.com/keshavgupta-mnnit/CarMagicBrowserReleases/issues)
+
+### 💡 Feature Requests
+👉 [Request a Feature](https://github.com/keshavgupta-mnnit/CarMagicBrowserReleases/issues)
+
+### 💬 General Feedback
+You can:
+- Open a discussion (if enabled)
+- Comment on issues
+- Share suggestions
+
+---
+
+## 📊 Roadmap (Optional but powerful)
+
+- [ ] Improve UI for automotive UX  
+- [ ] Add better input handling  
+- [ ] Enhance session sync reliability  
+- [ ] Explore safety-based restrictions (speed detection, etc.)  
+
+---
+
+## 🔐 Technical Highlights
+
+- Android VirtualDisplay & DisplayManager  
+- GeckoView browser engine  
+- MotionEvent input synthesis  
+- MediaDrm (hardware-backed identity)  
+- Firebase Firestore verification  
+- CI/CD with GitHub Actions  
+
+---
+
+## 📜 Disclaimer
+
+This software is provided for **educational and experimental purposes only**.  
+The developer is not responsible for misuse or unsafe operation.
+
+---
+
+## ⭐ Support
+
+If you found this interesting or useful:
+- Star the repo  
+- Share feedback  
+- Contribute ideas  
+
+---
+
+## 👨‍💻 Author
+
+Keshav Gupta  
+Android Developer  
+
+---
