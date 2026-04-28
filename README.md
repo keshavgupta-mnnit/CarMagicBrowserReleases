@@ -1,6 +1,6 @@
 # Car Magic Browser
 
-![Downloads](https://img.shields.io/github/downloads/YOUR_GITHUB_USERNAME/CarMagicBrowserReleases/total?style=for-the-badge&color=green)
+![Downloads](https://img.shields.io/github/downloads/keshavgupta-mnnit/CarMagicBrowserReleases/total?style=for-the-badge&color=green)
 ![Platform](https://img.shields.io/badge/Platform-Android%20Auto-blue?style=for-the-badge)
 
 A powerful, custom-built web browser engine designed specifically for Android Auto, utilizing Mozilla's GeckoView and Android Virtual Displays.
