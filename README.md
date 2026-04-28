@@ -1,65 +1,77 @@
 # 🚗 Car Magic Browser (CMB)
 
-A proof-of-concept Android application that enables a **full web browsing experience on car infotainment displays** using advanced display virtualization and dual-session rendering.
+<p align="center">
+  <img src="assets/banner.png" alt="Car Magic Browser Banner" width="100%" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/keshavgupta-mnnit/CarMagicBrowserReleases/releases/latest">
+    <img src="https://img.shields.io/badge/Download-APK-blue?style=for-the-badge" />
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/github/stars/keshavgupta-mnnit/CarMagicBrowserReleases?style=social" />
+  <img src="https://img.shields.io/github/downloads/keshavgupta-mnnit/CarMagicBrowserReleases/total" />
+  <img src="https://img.shields.io/github/v/release/keshavgupta-mnnit/CarMagicBrowserReleases" />
+  <img src="https://img.shields.io/github/release-size/keshavgupta-mnnit/CarMagicBrowserReleases/latest" />
+</p>
 
 ---
 
-## 📥 Downloads
+## ✨ Overview
 
-![Downloads](https://img.shields.io/github/downloads/keshavgupta-mnnit/CarMagicBrowserReleases/total)
-![Latest Release](https://img.shields.io/github/v/release/keshavgupta-mnnit/CarMagicBrowserReleases)
-![APK Size](https://img.shields.io/github/release-size/keshavgupta-mnnit/CarMagicBrowserReleases/latest)
+**Car Magic Browser (CMB)** is an experimental Android application that enables a **full web browsing experience on car infotainment displays**.
 
-👉 **[Download Latest APK](https://github.com/keshavgupta-mnnit/CarMagicBrowserReleases/releases/latest)**
+Unlike traditional approaches, it uses **Android’s internal display system + GeckoView** to deliver a **desktop-like browsing experience** on secondary automotive screens.
 
 ---
 
-## ✨ What is this?
+## 🚀 Key Features
 
-Car Magic Browser is an **experimental system-level project** that pushes the limits of Android’s display framework.
-
-It enables:
-- 🌐 Full web browsing on car screens  
-- 🔄 Session sync between phone and car  
-- ⚡ Hardware-accelerated rendering via GeckoView  
-- 🖥️ Desktop-like browsing experience on infotainment displays  
+- 🌐 Full browser engine (**GeckoView**, not limited WebView)  
+- 🔄 Seamless session sync between phone & car  
+- 🖥️ Desktop-class rendering on car display  
+- ⚡ Hardware-accelerated performance  
+- 🎯 Optimized for large automotive screens  
+- 🔐 Hardware-backed user verification layer  
 
 ---
 
-## 🧠 How it Works (High-Level)
+## 🧠 Core Architecture
 
 - Uses **VirtualDisplay API** to project content onto the car screen  
-- Runs **dual GeckoView sessions** (phone + car)  
+- Maintains **dual Gecko sessions (phone + car)**  
 - Shares persistent storage for **instant session sync**  
-- Injects **MotionEvent-based touch input** across displays  
+- Implements **MotionEvent-based input injection** across displays  
 
 ---
 
-## ⚠️ Safety Notice
+## 📦 APK Size Note
 
-This application is a **technical proof-of-concept**.
+This is a **universal APK**, meaning it includes support for multiple device configurations.
 
-- Intended for **non-driving scenarios only**
-- Requires user acknowledgment before use
-- Includes safeguards tied to system state where applicable
+Additionally, the app bundles a **full browser engine (GeckoView)** instead of relying on system WebView.
 
-> Use responsibly. Safety always comes first.
+👉 As a result:
+- APK size is larger than typical apps  
+- But ensures **consistent performance across devices**  
+- No dependency on system browser implementation  
 
 ---
 
-## 🛠️ Features
+## 📸 Screenshots
 
-- Full browser experience (not limited WebView)
-- Cross-device session continuity
-- Optimized rendering for large displays
-- Experimental automotive display support
-- Secure acknowledgment system
+<p align="center">
+  <img src="assets/screen1.png" width="45%" />
+  <img src="assets/screen2.png" width="45%" />
+</p>
 
 ---
 
 ## 📱 How to Use
 
-1. Download the latest APK from the link above  
+1. Download the latest APK  
 2. Install it on your Android device  
 3. Connect to your car head unit  
 4. Launch the app  
@@ -68,67 +80,70 @@ This application is a **technical proof-of-concept**.
 
 ---
 
+## ⚠️ Safety Notice
+
+This project is a **technical proof-of-concept**.
+
+- Intended for **non-driving scenarios only**  
+- Includes user acknowledgment system  
+- Designed with safety considerations in mind  
+
+> Use responsibly. Safety comes first.
+
+---
+
 ## 💬 Feedback & Community
 
-I’d love to hear your thoughts and improve this project.
-
-### 👍 Like / 👎 Dislike
-- Star ⭐ the repo if you like it  
-- Open an issue if something doesn’t work  
-
-### 🐛 Report Issues
-👉 [Report a Bug](https://github.com/keshavgupta-mnnit/CarMagicBrowserReleases/issues)
-
-### 💡 Feature Requests
-👉 [Request a Feature](https://github.com/keshavgupta-mnnit/CarMagicBrowserReleases/issues)
-
-### 💬 General Feedback
-You can:
-- Open a discussion (if enabled)
-- Comment on issues
-- Share suggestions
+### ⭐ Like the project?
+👉 Star this repo (top right)
 
 ---
 
-## 📊 Roadmap (Optional but powerful)
-
-- [ ] Improve UI for automotive UX  
-- [ ] Add better input handling  
-- [ ] Enhance session sync reliability  
-- [ ] Explore safety-based restrictions (speed detection, etc.)  
+### 🐛 Found a bug?
+👉 Report here:  
+https://github.com/keshavgupta-mnnit/CarMagicBrowserReleases/issues
 
 ---
 
-## 🔐 Technical Highlights
-
-- Android VirtualDisplay & DisplayManager  
-- GeckoView browser engine  
-- MotionEvent input synthesis  
-- MediaDrm (hardware-backed identity)  
-- Firebase Firestore verification  
-- CI/CD with GitHub Actions  
+### 💡 Have ideas or suggestions?
+👉 Join discussion:  
+https://github.com/keshavgupta-mnnit/CarMagicBrowserReleases/discussions
 
 ---
 
-## 📜 Disclaimer
+### 📊 Quick Feedback
 
-This software is provided for **educational and experimental purposes only**.  
-The developer is not responsible for misuse or unsafe operation.
+👉 👍 Like:  
+https://github.com/keshavgupta-mnnit/CarMagicBrowserReleases/issues/1  
+
+👉 👎 Needs improvement:  
+https://github.com/keshavgupta-mnnit/CarMagicBrowserReleases/issues/2  
 
 ---
 
-## ⭐ Support
+## 🔍 Tech Stack
 
-If you found this interesting or useful:
-- Star the repo  
-- Share feedback  
-- Contribute ideas  
+- **Kotlin (Android)**
+- **GeckoView (Mozilla)**
+- **VirtualDisplay API**
+- **MotionEvent Input Injection**
+- **MediaDrm (Widevine)**
+- **Firebase Firestore**
+- **GitHub Actions (CI/CD)**
+
+---
+
+## 📥 Download
+
+👉 https://github.com/keshavgupta-mnnit/CarMagicBrowserReleases/releases/latest
 
 ---
 
 ## 👨‍💻 Author
 
-Keshav Gupta  
+**Keshav Gupta**  
 Android Developer  
 
 ---
+
+⭐ If you found this interesting, consider starring the repo!
