@@ -60,15 +60,6 @@ Additionally, the app bundles a **full browser engine (GeckoView)** instead of r
 
 ---
 
-## 📸 Screenshots
-
-<p align="center">
-  <img src="assets/screen1.png" width="45%" />
-  <img src="assets/screen2.png" width="45%" />
-</p>
-
----
-
 ## 📱 How to Use
 
 1. Download the latest APK  
@@ -108,16 +99,6 @@ https://github.com/keshavgupta-mnnit/CarMagicBrowserReleases/issues
 ### 💡 Have ideas or suggestions?
 👉 Join discussion:  
 https://github.com/keshavgupta-mnnit/CarMagicBrowserReleases/discussions
-
----
-
-### 📊 Quick Feedback
-
-👉 👍 Like:  
-https://github.com/keshavgupta-mnnit/CarMagicBrowserReleases/issues/1  
-
-👉 👎 Needs improvement:  
-https://github.com/keshavgupta-mnnit/CarMagicBrowserReleases/issues/2  
 
 ---
 
