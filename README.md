@@ -1,7 +1,7 @@
 # 🚗 Car Magic Browser (CMB)
 
 <p align="center">
-  <img src="assets/banner.png" alt="Car Magic Browser Banner" width="100%" />
+  <img src="https://raw.githubusercontent.com/keshavgupta-mnnit/CarMagicBrowserReleases/main/assets/banner.png?v=2" alt="Car Magic Browser Banner" width="100%" />
 </p>
 
 <p align="center">
@@ -10,18 +10,15 @@
   </a>
   &nbsp;
   <a href="https://github.com/keshavgupta-mnnit/CarMagicBrowserReleases/releases/download/early-access/app-release.apk">
-    <img src="https://img.shields.io/badge/🧪_Early_Access-Beta_APK-orange?style=for-the-badge&logo=android&logoColor=white" alt="Download early access APK" />
+    <img src="https://img.shields.io/badge/🚀_Early_Access-Newest_Build-orange?style=for-the-badge&logo=android&logoColor=white" alt="Download early access APK" />
   </a>
 </p>
 
 <p align="center">
-  <sub><b>Latest</b> = stable, recommended &nbsp;•&nbsp; <b>Early Access</b> = newest features, may be unstable &nbsp;•&nbsp;
-  <a href="https://github.com/keshavgupta-mnnit/CarMagicBrowserReleases/releases">All releases</a></sub>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/github/downloads/keshavgupta-mnnit/CarMagicBrowserReleases/total" />
-  <img src="https://img.shields.io/github/v/release/keshavgupta-mnnit/CarMagicBrowserReleases" />
+  <img src="https://img.shields.io/github/v/release/keshavgupta-mnnit/CarMagicBrowserReleases?label=Latest%20version" />
+  <img src="https://img.shields.io/github/downloads/keshavgupta-mnnit/CarMagicBrowserReleases/total?label=Downloads" />
+  <br/>
+  <sub><a href="https://github.com/keshavgupta-mnnit/CarMagicBrowserReleases/releases">All releases & changelogs</a></sub>
 </p>
 
 ---
@@ -101,6 +98,8 @@ CMB uses the **WebView already on your phone**, so it no longer bundles a full b
 5. Open **Car Magic Browser** on the car screen and accept the disclaimer
 6. Start browsing!
 
+> ℹ️ **Don't see the app in Android Auto?** Open Android Auto settings, enable **Developer mode** (tap *Version* 10 times), then turn on **Unknown sources** in Developer settings so sideloaded apps appear.
+
 ---
 
 ## ⚠️ Safety Notice
@@ -137,8 +136,8 @@ CMB is an **independent, experimental project**.
 
 ## 📥 Download
 
-- ✅ **Stable (recommended):** [Download latest APK](https://github.com/keshavgupta-mnnit/CarMagicBrowserReleases/releases/latest/download/app-release.apk)
-- 🧪 **Early Access (beta):** [Download early build](https://github.com/keshavgupta-mnnit/CarMagicBrowserReleases/releases/download/early-access/app-release.apk)
+- ✅ **Latest release:** [Download APK](https://github.com/keshavgupta-mnnit/CarMagicBrowserReleases/releases/latest/download/app-release.apk)
+- 🚀 **Early Access (newest build):** [Download APK](https://github.com/keshavgupta-mnnit/CarMagicBrowserReleases/releases/download/early-access/app-release.apk)
 - 📜 **All versions & changelogs:** [Releases page](https://github.com/keshavgupta-mnnit/CarMagicBrowserReleases/releases)
 
 ---
