@@ -1,0 +1,42 @@
+name: Update README download link
+
+on:
+  release:
+    types: [published, edited]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: readme-download-link
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Point Download Now at the latest APK
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          URL="$(gh api "repos/$REPO/releases/latest" \
+                  --jq '[.assets[] | select(.name | endswith(".apk"))][0].browser_download_url // empty')"
+          if [ -z "$URL" ]; then
+            echo "::warning::Latest release has no .apk asset - README left unchanged."
+            exit 0
+          fi
+          echo "Latest APK: $URL"
+          sed -E -i "s#https://github\.com/$REPO/releases/download/[^\"')[:space:]]+\.apk#$URL#g" README.md
+          if git diff --quiet; then
+            echo "README already points at the latest APK."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git commit -am "Point Download Now at $(basename "$URL")"
+          git push
