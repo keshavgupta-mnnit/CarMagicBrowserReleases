@@ -85,7 +85,7 @@ Browse any website, watch videos, stream Live TV and manage multiple tabs on you
 CMB uses the **WebView already on your phone**, so it no longer bundles a full browser engine:
 
 - **Small download** (~6 MB)
-- Browser engine stays **updated automatically** through the Play Store
+- Browser engine stays **updated automatically**
 - Built-in **update checker** tells you when a new release is out
 
 ---
