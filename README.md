@@ -5,11 +5,21 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/keshavgupta-mnnit/CarMagicBrowserReleases/releases/latest"><img src="https://img.shields.io/badge/Latest_APK-2ea44f?style=for-the-badge&logo=android&logoColor=white" alt="Latest APK" /><img src="https://img.shields.io/github/v/release/keshavgupta-mnnit/CarMagicBrowserReleases?style=for-the-badge&label=Version&color=1f6feb" alt="Version" /><img src="https://img.shields.io/github/downloads/keshavgupta-mnnit/CarMagicBrowserReleases/latest/total?style=for-the-badge&label=Downloads&color=8957e5" alt="Latest version downloads" /></a><a href="https://github.com/keshavgupta-mnnit/CarMagicBrowserReleases/releases/download/v1.0.2/CMB_v1.0.2.apk"><img src="https://img.shields.io/badge/⬇_Download_Now-2ea44f?style=for-the-badge" alt="Download Now" /></a>
+  <a href="https://github.com/keshavgupta-mnnit/CarMagicBrowserReleases/releases/latest"><img src="https://img.shields.io/badge/Latest_APK-2ea44f?style=for-the-badge&logo=android&logoColor=white" alt="Latest APK" /><img src="https://img.shields.io/github/v/release/keshavgupta-mnnit/CarMagicBrowserReleases?style=for-the-badge&label=Version&color=1f6feb" alt="Version" /><img src="https://img.shields.io/github/downloads/keshavgupta-mnnit/CarMagicBrowserReleases/latest/total?style=for-the-badge&label=Downloads&color=8957e5" alt="Latest version downloads" /></a>
 </p>
 
+<br/>
+
 <p align="center">
-  <a href="https://github.com/keshavgupta-mnnit/CarMagicBrowserReleases/releases"><img src="https://img.shields.io/badge/📜_Previous_Releases-30363d?style=for-the-badge" alt="Previous Releases" /></a>&nbsp;<img src="https://img.shields.io/github/downloads/keshavgupta-mnnit/CarMagicBrowserReleases/total?style=for-the-badge&label=Total_App_Downloads&color=30363d&labelColor=555" alt="Total App Downloads" />
+  <a href="https://github.com/keshavgupta-mnnit/CarMagicBrowserReleases/releases/download/v1.0.2/CMB_v1.0.2.apk">
+    <img src="https://img.shields.io/badge/DOWNLOAD%20NOW-00C853?style=for-the-badge&logo=android&logoColor=white" alt="Download Now" height="56" />
+  </a>
+</p>
+
+<br/>
+
+<p align="center">
+  <a href="https://github.com/keshavgupta-mnnit/CarMagicBrowserReleases/releases"><img src="https://img.shields.io/badge/All%20Releases-30363d?style=for-the-badge" alt="All Releases" /></a>&nbsp;&nbsp;<img src="https://img.shields.io/github/downloads/keshavgupta-mnnit/CarMagicBrowserReleases/total?style=for-the-badge&label=Total%20App%20Downloads&labelColor=555&color=8957e5" alt="Total App Downloads" />
 </p>
 
 ---
